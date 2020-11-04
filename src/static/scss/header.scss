@@ -1,0 +1,46 @@
+header {
+    height: 5rem;
+    border-bottom: 2px groove orangered;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #CDDCDC;
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);    background-blend-mode: screen, overlay;    margin-bottom: 20px;
+    box-shadow: 0px -1px 13px 3px rgba(96, 128, 124, 0.77);
+}
+
+.nav{
+    width: inherit;
+    height: 100%;
+
+    &.flex-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.header-logo{
+    width: 20%;
+    height: 100%;
+}
+
+.nav-links{
+    width: 60%;
+}
+.nav-link-li>a{
+
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links-ul {
+    list-style-type: none;
+}
+
+.sign-in{
+    color: #1DBFAF !important;
+    
+}
+

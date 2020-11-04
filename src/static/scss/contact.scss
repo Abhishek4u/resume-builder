@@ -1,0 +1,67 @@
+.contact{
+    text-align: center;
+    width: 100%;
+
+    .fill-contact {
+        border: 1px solid gray;
+        height: 800px;
+        width: 50%;
+        box-shadow:0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+    }
+
+    .fill-contact>h2{
+        margin-bottom: 40px;
+    }
+
+    .fill-contact div{
+        margin: 30px 8px;
+        text-align: left;
+    }
+
+    .fill-contact input {
+        width: 25%;
+        clear: both;
+        height: 3rem;
+      }
+
+    .show-contact{
+
+        border: 1px solid gray;
+        height: 800px;
+        width: 40%;
+        box-shadow:0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+    }
+
+    .fill-contact p{
+        margin: 10px;
+    }
+
+    span{
+        // font-weight: 400;
+        margin: 15px 30px;
+        font-size: large;
+        width: 50%;
+    }
+
+    .p-summary {
+        width: 70% !important;
+    }
+
+    input {
+        background-color: rgb(234, 252, 255);
+        border: 1px dashed lightblue;
+        height: 2rem;
+        border-radius: 5px;
+
+    }
+
+    .form-left{
+        display:inline-block;
+        width:100px;
+    }
+
+    .go-back{
+        color: #1DBFAF;
+        text-decoration: none;
+    }
+}
